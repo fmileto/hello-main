@@ -1,0 +1,19 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@tc-npm-test/hello-main/(.*)": "<rootDir>/../libs/hello-main/src/$1",
+    "@tc-npm-test/hello-main": "<rootDir>/../libs/hello-main/src",
+    "@tc-npm-test/hello-slave/(.*)": "<rootDir>/../libs/hello-slave/src/$1",
+    "@tc-npm-test/hello-slave": "<rootDir>/../libs/hello-slave/src"
+  }
+}

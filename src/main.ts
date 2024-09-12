@@ -1,0 +1,2 @@
+const boostrap = async () => {};
+boostrap();
